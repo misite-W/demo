@@ -1,0 +1,119 @@
+// 蓝湖UI规范 颜色、字体大小 less变量设置
+@themeColor: #DA3947; //链接/按钮
+@hoverColor: #B81C24; //链接/按钮悬停
+@aideYellow: #FBC02D; //辅助色1
+@aideBlue: #03A9F4; //辅助色2
+@deepBlack: #282828; //最深色
+@grayColor: #8c8c8c; //灰色
+@successColor: #00C07C; //成功提示
+@errorColor: #DA3947; //错误提示
+@textColor1: #282828; //一级文字
+@textColor2: #595959; //二级文字
+@textColor3: #8c8c8c; //三级文字
+@placeholderColor: #bfbfbf; //输入框空状态文字
+@borderColor: #D8D8D8; //一级背景 边框线颜色
+@bgGray: #fafafa; //背景
+@bgWhite: #fff; //页面背景
+
+@fontSize30: 30px; //一般是网站最重要的标题，也可以用于阿拉伯数字等
+@fontSize24: 24px; //一般用于页面标题
+@fontSize16: 16px; //用于二级页面标题或者阅读文段
+@fontSize14: 14px; //用于表头，表单列表，导航，输入框
+@fontSize12: 12px; //用于说明性文字，次要文字信息
+
+@padding80:80px; //用于内容区距footer区的距离
+@padding40:40px; //用于内容区大间距
+@padding24:24px; //用于同区内中间距
+@padding20:20px;
+@padding16:16px; //用于同区内次间距,也可是12px
+@padding12:12px; //用于同区内次间距
+@padding8:8px; //用于同区内小间距，也可是4px
+@padding7:7px;
+@padding4:4px; //用于同区内小间距
+
+.main-wraper {
+  padding: 0 @padding24;
+}
+.move-right {
+  float: right;
+}
+.page-title{ //页面大标题
+  padding: 0 0 24px 0;
+  border-bottom: 1px solid #d8d8d8;
+  font-size: 30px;
+  color: #282828;
+  font-weight: 700;
+}
+/*tab切换*/
+.conditionWrapper {
+  margin-bottom: 0 !important;
+  border-bottom: 1px solid @borderColor;
+}
+.conditionBox {
+  margin-bottom: -1px;
+}
+.condition {
+  width: 114px;
+  float: left;
+  margin-right: 3px;
+  line-height: 40px;
+  border: 1px solid @borderColor;
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+  font-size: 14px;
+  text-align: center;
+  color: #666666;
+  cursor: pointer;
+}
+.condition.active {
+  color: @errorColor;
+  background-color: @bgGray;
+}
+
+.main-wraper .el-dropdown-link {
+  cursor: pointer;
+  color: @themeColor;
+}
+.a-link {
+  color: @hoverColor;
+}
+/*.el-table th{
+  background-color: @bgGray;
+}*/
+.el-table td, .el-table th.is-leaf{
+  border-bottom: 1px solid @borderColor;
+}
+//表格thead内容加粗
+.main-wraper /deep/ .el-table th{
+  color: @textColor1;
+  font-weight: bold;
+  background-color: @bgGray;
+}
+//面包屑
+.breadcrumb{
+  margin-top: @padding24;
+}
+//模块标题
+.model-title{
+  padding: @padding24 0px;
+  font-size: @fontSize30;
+  border-bottom: 1px solid @borderColor;
+  color: @textColor1;
+  font-weight: bold;
+}
+//按钮中的字体图标，需要添加在iconfont类名之后
+.btn-icon{
+  font-size: @fontSize12;
+}
+//另起一行的按钮盒子
+.btn-box{
+  margin-bottom: @padding24;
+}
+//另起一行的按钮盒子中的按钮样式
+.btn-box .btn{
+  min-width: 92px;
+}
+//dialog中的输入框 一行布局中存在一个的情况
+.dialog-input{
+  width: 500px;
+}

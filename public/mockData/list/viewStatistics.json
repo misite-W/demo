@@ -1,0 +1,59 @@
+{"data":[
+  {
+    "name": "张雪",
+    "submitStatus": "A",
+    "submitSelect": "已投票",
+    "submitTime": "2019-07-25"
+  },{
+    "name": "马雷",
+    "submitStatus": "B",
+    "submitSelect": "未投票",
+    "submitTime": "2019-07-25"
+  },{
+    "name": "陈杰",
+    "submitStatus": "C",
+    "submitSelect": "未投票",
+    "submitTime": "2019-07-25"
+  },{
+    "name": "赵伟",
+    "submitStatus": "A",
+    "submitSelect": "未投票",
+    "submitTime": "2019-07-25"
+  },{
+    "name": "张雪",
+    "submitStatus": "A",
+    "submitSelect": "未投票",
+    "submitTime": "2019-07-25"
+  },{
+    "name": "张雪",
+    "submitStatus": "A",
+    "submitSelect": "已投票",
+    "submitTime": "2019-07-25"
+  },{
+    "name": "马雷",
+    "submitStatus": "B",
+    "submitSelect": "未投票",
+    "submitTime": "2019-07-25"
+  },{
+    "name": "陈杰",
+    "submitStatus": "C",
+    "submitSelect": "未投票",
+    "submitTime": "2019-07-25"
+  },{
+    "name": "赵伟",
+    "submitStatus": "A",
+    "submitSelect": "未投票",
+    "submitTime": "2019-07-25"
+  },{
+    "name": "张雪",
+    "submitStatus": "A",
+    "submitSelect": "未投票",
+    "submitTime": "2019-07-25"
+  },{
+    "name": "张雪",
+    "submitStatus": "A",
+    "submitSelect": "未投票",
+    "submitTime": "2019-07-25"
+  }
+],"totalSize":11
+}
