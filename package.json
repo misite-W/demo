@@ -27,7 +27,7 @@
     "jquery": "^3.4.1",
     "jquery-ui-pack": "^1.12.2",
     "js-file-download": "^0.4.8",
-    "jszip": "^3.2.2",
+    "jszip": "^3.8.0",
     "moment": "^2.24.0",
     "pqgrid": "^6.2.4",
     "qqmap": "^1.0.1",
